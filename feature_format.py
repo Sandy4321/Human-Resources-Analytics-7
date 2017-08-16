@@ -77,7 +77,7 @@ def featureFormat( dictionary, features, remove_NaN=True, remove_all_zeroes=True
         # Logic for deciding whether or not to add the data point.
         append = True
         # exclude 'poi' class as criteria.
-        if features[0] == 'poi':
+        if features[0] == 'left':
             test_list = tmp_list[1:]
         else:
             test_list = tmp_list
